@@ -15,4 +15,5 @@ Merci de votre attention à l'égard de ce projet.
 
 Paul, Tania et Melec
 
-GitHub Melec: https://github.com/Melecoco/Calendrier_HTML
+GitHub Melec: https://github.com/Melecoco
+GitHub Paul: https://github.com/Reavorr
