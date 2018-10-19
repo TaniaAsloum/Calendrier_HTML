@@ -1,0 +1,160 @@
+*{
+	font-family: 'Bree Serif', serif;
+}
+
+h1{
+	text-align: center; 
+	font-family: 'Bree Serif', serif;	
+	text-transform: uppercase;
+	color: #cc2030;
+ }
+
+img{
+	width:350px;
+	height: 125px;
+}
+
+body{
+	font-size: 18px;
+	text-align: center;
+	padding: 70px;
+	margin: 0;
+}
+
+legend{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 22px;
+	color: #cc2030;
+}
+
+#section1:hover, #section2:hover, #section3:hover, #section4:hover{
+	box-shadow: 0px 0px 5px #cc2030;
+}
+
+#section1, #section2, #section3, #section4{
+	padding: 10px;
+	margin: 20px 0px;
+	border-radius: 10px;
+}
+
+#section1 input{
+	width: 300px;
+	height: 20px;
+	font-size: 18px;
+}
+
+#section2 input{
+	width: 20px;
+	height: 20px;
+}
+
+#section3 input{
+	width: 300px;
+	height: 20px;
+}
+
+#section1 label{
+	display: inline-block;
+	width: 210px;
+}
+
+input[type="submit"]{
+	font-size: 15px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #cc2030;
+
+}
+
+input[type="submit"]:hover{
+	box-shadow: 0px 0px 3px #cc2030;
+}
+
+input{
+	font-size: 18px;
+}
+
+
+nav{
+	text-align: center;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: #cc2030;
+	overflow: hidden;
+	display: flex;
+	min-height: 52px;
+}
+
+.nav{
+	float: left;
+}
+
+.nav a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.nav a:hover{
+	background-color: rgb(224,226,238);
+}
+
+.savoirplus{
+	float: right;
+}
+
+
+@media screen and (max-width: 725px){
+	.nav a{
+		display: none;
+	}
+
+}
+
+
+
+.container{
+	cursor: pointer;
+	width: 40px;
+	display: block;
+	position: relative;
+	top: 7px;
+	left: 5px;
+}
+
+.bar1, .bar2, .bar3{
+	width: 35px;
+	height: 5px;
+	background-color: #333;
+	margin: 6px 0;
+	transition: 0.4s;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.container:hover .bar1{
+	transform: rotate(-45deg)translate(-9px, 6px);
+}
+
+.container:hover .bar2{
+	opacity: 0;
+}
+
+.container:hover .bar3{
+	transform: rotate(45deg) translate(-8px, -8px);
+}
+
+textarea{ font-size: 18px;
+	width: 500px;
+	height: 100px; }
+#section4 label{position: relative;
+bottom: 45px;
+right: 20px;}

@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>Calendrier groupe heu...</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link rel="stylesheet" type="text/css" href="./../css/style.css">
+	<link rel="stylesheet" type="text/css" href="./..css/style2.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
 	<style>
@@ -17,25 +17,37 @@
 </head>
 <body>
 	<header>
+		
+			<ul class="ul">
+				<div class="container nav" onclick="myFunction(this)">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
 
-
-
-</header>
+				<div class="nav"><a href="#"> Calendrier </a></div>
+				<div class="nav"><a href="https://www.itescia.fr/"> ITESCIA </a></div>
+				<div class="nav"><a href=./calendrier.html> Liste d'évènements </a></div>
+				<div class="savoirplus nav"><a href="./formulaire.html"> Ajouter un évènement </a></div>
+				</div>
+			</ul>
+		
+	</header>
 	<main>
 		<section class="section1">
 			<div class="menu">
 				<ul>
 					<a class="lien" href="">
-						<h1 class="octobre">OCTOBRE  </h1>
+						<h1 class="octobre">AVRIL  </h1>
 					</a>
 						
 					<ul class="liensMois">
-						<a class="lien mois" href="./novembre.html">novembre</a>
-						<a class="lien mois" href="./decembre.html">decembre</a>
-						<a class="lien mois" href="./janvier.html">janvier</a>
-						<a class="lien mois" href="./fevrier.html">fevrier</a>
-						<a class="lien mois" href="./mars.html">mars</a>
-						<a class="lien mois" href="./avril.html">avril</a>
+						<a class="lien mois moisPassé" href="./octobre.html">octobre</a>
+						<a class="lien mois moisPassé" href="./novembre.html">novembre</a>
+						<a class="lien mois moisPassé" href="./decembre.html">decembre</a>
+						<a class="lien mois moisPassé" href="./janvier.html">janvier</a>
+						<a class="lien mois moisPassé" href="./fevrier.html">fevrier</a>
+						<a class="lien mois moisPassé" href="./mars.html">mars</a>
 						<a class="lien mois" href="./mai.html">mai</a>
 						<a class="lien mois" href="./juin.html">juin</a>	
 						<a class="lien mois" href="./juillet.html">juillet</a>
@@ -51,13 +63,13 @@
 		</section>
 		<section>
 			<div class="LigneSemaine">
-				<div class="jour"><p>LUNDI</p></div>
-				<div class="jour"><p>MARDI</p></div>
-				<div class="jour"><p>MERCREDI</p></div>
-				<div class="jour"><p>JEUDI</p></div>
-				<div class="jour"><p>VENDREDI</p></div>
-				<div class="jour"><p>SAMEDI</p></div>
-				<div class="jour"><p>DIMANCHE</p></div>
+				<div class="jour" id="lundi"><p>LUNDI</p></div>
+				<div class="jour" id="mardi"><p>MARDI</p></div>
+				<div class="jour" id="mercredi"><p>MERCREDI</p></div>
+				<div class="jour" id="jeudi"><p>JEUDI</p></div>
+				<div class="jour" id="vendredi"><p>VENDREDI</p></div>
+				<div class="jour" id="samedi"><p>SAMEDI</p></div>
+				<div class="jour" id="dimanche"><p>DIMANCHE</p></div>
 			</div>
 			<div class="ligne1">
 				<div class="case">1</div>
@@ -101,7 +113,7 @@
 			<div class="ligne5">
 				<div class="case">29</div>
 				<div class="case">30</div>
-				<div class="case">31</div>
+				<div class="case">30</div>
 				<div class="case"></div>
 				<div class="case"></div>
 				<div class="case"></div>

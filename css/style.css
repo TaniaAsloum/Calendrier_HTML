@@ -1,0 +1,168 @@
+*{font-family: 'Bree Serif', serif;}
+
+main{width: 90%;
+height: 80%;
+margin-left: 30%;
+}
+
+footer{height:80px;
+width: 100%;
+background-color: lightblue;
+}
+.LigneSemaine{ display: flex;
+ }
+
+.octobre{ color: rgb(204,32,48);
+font-size: 30px; }
+
+.octobre:hover { color: rgba(204,32,48,0.5); }
+
+.jour{ height: 90px;
+width: 90px; 
+margin: 1px;
+	
+	font-size: 18px;
+border-radius: 10%;
+border: solid 2px #cc2030 ;
+
+	color: white;
+	background-color: rgb(204,32,48);}
+
+.jour p {
+	position: relative;
+	bottom: -10px;}
+
+.jour:hover{ background-color: white;
+border-color: rgb(204,32,48);
+color: rgb(204,32,48) }
+
+.case{border-style: solid;
+	border-color: #cc2030;
+	color: rgba(204,32,48,0.5);
+	border-width: 2px;
+	border-radius: 10%;
+	font-size: 33px;
+	margin: 1px;
+height: 90px;
+width: 90px;}
+
+.case:hover{ font-size:  55px;
+color: rgb(204,32,48); }
+
+.ligne1{display: flex;}
+
+.ligne2{display: flex;}
+
+.ligne3{display: flex;}
+
+.ligne4{display: flex;}
+
+.ligne5{display: flex;}
+
+.lien{text-decoration: none;}
+
+.section1{ margin-left: 15%; }
+
+
+css paul
+
+nav{
+	text-align: center;
+}
+
+.ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: #cc2030;
+	overflow: hidden;
+	display: flex;
+	min-height: 52px;
+}
+
+.container{
+	cursor: pointer;
+	width: 40px;
+	display: block;
+	position: relative;
+	top: 7px;
+	left: 5px;
+}
+
+.bar1, .bar2, .bar3{
+	width: 35px;
+	height: 5px;
+	background-color: #333;
+	margin: 6px 0;
+	transition: 0.4s;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.container:hover .bar1{
+	transform: rotate(-45deg)translate(-9px, 6px);
+}
+
+.container:hover .bar2{
+	opacity: 0;
+}
+
+.container:hover .bar3{
+	transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.nav{
+	float: left;
+}
+
+.nav a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.nav a:hover{
+	background-color: rgb(224,226,238);
+}
+
+
+.savoirplus{
+	float: right;
+}
+
+
+@media screen and (max-width: 725px){
+	.nav a{
+		display: none;
+	}
+
+}
+
+/* second css melec*/
+
+.jour p{ text-align: center; }
+
+
+.menu ul ul {display: none;}
+.menu ul:hover ul {display: block;}
+
+
+
+.menu {height: 100px;
+	margin-bottom: 20px;}
+
+.liensMois{ position: relative;
+
+left: -300px;
+
+ }
+
+.mois{height: 15px;
+	font-size: 25px;
+color: darkred;
+
+}
+
+.moisPassé{opacity: 0.5}

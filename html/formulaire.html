@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title> Formulaire </title>
+	<link rel="stylesheet" type="text/css" href="./../css/style_calendrier.css">
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+</head>
+
+<header>
+	<nav>
+		<ul>
+			<div class="container nav" onclick="myFunction(this)">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+
+			<div class="nav"><a href="./octobre.html"> Calendrier </a></div>
+			<div class="nav"><a href="https://www.itescia.fr/"> ITESCIA </a></div>
+			<div class="nav"><a href="./calendrier.html"> Liste d'évènements </a></div>
+			<div class="savoirplus nav"><a href="#plus"> En savoir plus </a></div>
+			</div>
+		</ul>
+	</nav>
+</header>
+
+<body>
+	
+	<h1> Création de l'évènement </h1>
+
+	<img src="./../img/itescia.png" alt="un logo">
+		
+
+	<form method="post"> </form>
+		<fieldset id="section1">
+			<legend> Date : </legend>
+			<label for="horaires"> Début de l'évènement : </label>
+			<input type="date" name="horaires" id="horaires"><br><br>
+
+			<label for="horaires2"> Fin de l'évènement : </label>
+			<input type="date" name="horaires2" id="horaires2"><br><br>
+		</fieldset>
+
+		<fieldset id="section2">
+			<legend> Evènement : </legend>
+			<label for="evenement"> Type d'évènement : </label>
+			<input type="radio" name="evenement" value="evenement" id="evenement">
+
+			<label for="evenement"> Sportif </label>
+			<input type="radio" name="evenement" value="evenement" id="evenement">
+
+			<label for="evenement"> Loisir </label>
+			<input type="radio" name="evenement" value="evenement" id="evenement">
+
+			<label for="evenement"> Professionnel </label>
+			<input type="radio" name="evenement" value="evenement" id="evenement">
+			<label for="evenement"> Familial </label>
+
+			<input type="radio" name="evenement" value="evenement" id="evenement">
+			<label for="evenement"> Amical </label><br><br>
+		</fieldset>
+
+		<fieldset id="section3">
+			<legend> Lieu : </legend>
+			<label for="adresse"> Adresse : </label>
+			<input type="text" name="adresse" id="adresse"><br><br>
+
+			<label for="ville"> Ville : </label>
+			<input type="text" name="ville" id="ville">
+
+			<label for="codepostal"> Code Postal : </label>
+			<input type="text" name="codepostal" id="codepostal"><br><br>
+		</fieldset>
+
+		<fieldset id="section4">
+			<legend> Descritpion : </legend>
+			<label for="descritpion"> Description de l'évènement : </label>
+			<textarea></textarea><br><br>
+		</fieldset>
+
+		<input type="submit" value="Valider l'évènement !">
+	</form>
+
+</body>
+
+</html>
